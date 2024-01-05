@@ -4,10 +4,8 @@ import Planets from './componets/Planets';
 import People from './componets/People';
 import { ReactQueryDevtools } from 'react-query-devtools';
 
-
 function App() {
   let [page, setPage] = useState('planets');
-
   return (
     <>
       <div className="App">
